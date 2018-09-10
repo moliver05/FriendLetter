@@ -4,7 +4,7 @@ namespace FriendLetter.Controllers
 {
     public class HomeController : Controller
     {
-        [Route("/journal")]
+        [Route("/")]
         public ActionResult Journal()
         {
           return View();
